@@ -7,6 +7,7 @@ int main(){
         if(num=='a' || num=='e' || num=='i' || num=='o' || num=='u' || num=='A' || num=='E'|| num=='I'|| num=='O'|| num=='U') printf("Vowel");
         else printf("Consonant");
     }
+    else if(isdigit(num))printf("Digit");
     else printf("Special Character");
  
 }
