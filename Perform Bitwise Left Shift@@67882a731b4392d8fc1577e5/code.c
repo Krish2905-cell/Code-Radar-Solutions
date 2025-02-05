@@ -5,6 +5,6 @@ int main() {
     scanf("%d", &a);
     scanf("%d", &shiftCount);
     int result = a << shiftCount;
-    printf("The result of %d << %d is: %d\n", a, shiftCount, result);
+    printf("%d", result);
     return 0;
 }
