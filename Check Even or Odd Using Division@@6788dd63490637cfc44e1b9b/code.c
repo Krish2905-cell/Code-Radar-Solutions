@@ -2,5 +2,5 @@
 int main(){
     int a;
     scanf("%d",&a);
-    (a/2)*2?printf("Even"):printf("Odd");
+    (a/2)*2==0?printf("Even"):printf("Odd");
 }
