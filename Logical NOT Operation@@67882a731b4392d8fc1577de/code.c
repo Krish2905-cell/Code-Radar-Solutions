@@ -2,5 +2,6 @@
 int main(){
     int a;
     scanf("%d ",&a);
-    (a>!0)?printf("False"):printf("True");
+    if (a>!0) printf("True");
+    else printf("False")
 }
