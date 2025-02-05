@@ -2,7 +2,6 @@
 
 int main() {
     int a, shiftCount;
-    printf("Enter an integer: ");
     scanf("%d", &a);
     printf("Enter the number of positions to shift left: ");
     scanf("%d", &shiftCount);
