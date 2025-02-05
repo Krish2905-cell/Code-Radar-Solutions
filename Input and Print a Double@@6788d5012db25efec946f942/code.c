@@ -2,6 +2,6 @@
 int main(){
     double a;
     scanf("%lf",&a);
-    printf("%4.lf",a);
+    printf("%.4lf",a);
 
 }
