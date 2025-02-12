@@ -3,11 +3,8 @@
 int main() {
     char operator;
     int num1, num2;
-    
-    // Taking input for the operator and numbers
-    scanf(" %c", &operator);  // Space before %c to consume any leftover newline
+    scanf(" %c", &operator);
     scanf("%d %d", &num1, &num2);
-
     switch (operator) {
         case '+':
             printf("%d", num1 + num2);
@@ -20,13 +17,13 @@ int main() {
             break;
         case '/':
             if (num2 != 0) {
-                printf("%d", num1 / num2);  // Integer division
+                printf("%d", num1 / num2);
             } else {
-                printf("error");  // Handle division by zero
+                printf("error");
             }
             break;
         default:
-            printf("error");  // Invalid operator
+            printf("error"); 
     }
     return 0;
 }
