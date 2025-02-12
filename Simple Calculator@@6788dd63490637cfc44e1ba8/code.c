@@ -3,8 +3,9 @@
 int main() {
     char operator;
     int num1, num2;
-    scanf(" %c", &operator);
     scanf("%d %d", &num1, &num2);
+    scanf(" %c", &operator);
+
     switch (operator) {
         case '+':
             printf("%d", num1 + num2);
