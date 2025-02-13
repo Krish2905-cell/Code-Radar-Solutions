@@ -2,5 +2,5 @@
 int main(){
     int a,pos;
     scanf("%d %d",&a,&pos);
-    printf("%d",(a>>b)&1);
+    printf("%d",(a>>pos)&1);
 }
